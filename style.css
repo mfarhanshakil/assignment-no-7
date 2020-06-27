@@ -1,0 +1,72 @@
+.calculator
+{
+    display: flex;
+    border: 2px solid darkblue;
+    width: 500px;
+    margin: 0 auto;
+    background: ghostwhite;
+    margin-top: 15px;
+}
+
+#calc-head
+{
+    color: lightblue;
+    margin: none;
+    padding: none;
+    border: none;
+    text-align: center;
+}
+
+.calc-footer
+{
+    margin-top: 20px;
+    text-align: center;
+    color: darkblue;
+}
+
+.footer-prop
+{
+    background-color: ghostwhite;
+}
+
+
+.oper-mem
+{
+    height: 30px;
+    border: none;
+    margin: none;
+    /* background-color: ghostwhite !important; */
+    padding: none;
+}
+
+#calc-input
+{
+    height: 50px;
+    font-size: xx-large;
+    text-align: end;
+    background-color: ghostwhite;
+    border: 3px solid lightblue;
+}
+
+.gen-button
+{
+    font-size: x-large;
+    color: darkblue;
+    background-color: darkgray;
+    width: 112px;
+    margin-top: 2px;
+}
+
+.gen-button-calc
+{
+    margin-top: 5px;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 550px)
+{
+    .calculator
+    {
+        width: 300px;
+    }
+}
